@@ -1,14 +1,13 @@
-
 body {
   background-color: lightblue;
   font-family: times;
   margin: 0px;
- 
 }
 
 
 
 /*selector {<image-orientation: center }*/
+
 div {
 
   min-height: 100vh;
@@ -29,16 +28,14 @@ h2 {
   font-size: 2.5em;
 }
 
-
 img{
 
   display: flex;
-  padding: 0px;
+  padding: 20px;
   margin: 0 auto;
-  /*border-radius: 130px;*/
+  border-radius: 130px;
 
 }
-
 
 p { width: 40%;
   margin: 10vh 10vw;
@@ -64,12 +61,12 @@ ol {
   justify-content: space-evenly;
 }
 
-li #lower {
+li#lower {
 margin-top: 7%;
 
 }
 
-li #lowest {
+li#lowest {
   margin-bottom: 14%;
 
 }
@@ -102,12 +99,14 @@ li:hover {
 
 }
 
+ /* brand image*/
+.navbar-brand {
+  
+  margin:0;
+  padding:0;
 
-
-
-
-
-
+  
+  }
  
 
 
