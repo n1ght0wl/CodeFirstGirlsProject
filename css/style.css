@@ -1,20 +1,19 @@
 body {
-  background-color: lightblue
-  ;
-
-font-family: times;
+  background-color: lightblue;
+  font-family: times;
 
   margin: 0px;
 }
 
 selector {<image-orientation: center }
 
-div {
+/*div {
 
   min-height: 100vh;
 
   width: 100vw;
 }
+*/
 
 h1, h2 {
 
