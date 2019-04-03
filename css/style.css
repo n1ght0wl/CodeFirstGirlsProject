@@ -12,17 +12,23 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.logo {
+  height: 40px;
+  width: auto;
+}
+
 .navbar a {
   float: left;
   font-size: 16px;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 0;
   text-decoration: none;
 }
 
+
 .dropdown {
-  float: left;
+  float: right;
   overflow: hidden;
 }
 
@@ -38,7 +44,6 @@ body {
   margin: 0;
 }
 
-
 .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
   background-color: #323d3e;
 }
@@ -47,9 +52,11 @@ body {
   display: none;
   position: absolute;
   background-color: #323d3e;
-  min-width: 160px;
+  min-width: 140px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  left:auto;
+  right:0;
 }
 
 .dropdown-content a {
