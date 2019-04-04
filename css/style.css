@@ -4,16 +4,21 @@ body {
   margin: 0px;
   justify-content: center;
 }
+
 /* Navbar container */
 .navbar {
   overflow: hidden;
   background-color: lightblue;
   font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  position: relative;
+
+
 
 }
 
 .logo {
-  height: 43px;
+  height: 41px;
   width: auto;
 }
 
@@ -24,12 +29,14 @@ body {
   text-align: center;
   padding: 0;
   text-decoration: none;
+
 }
 
 
 .dropdown {
   float: right;
   overflow: hidden;
+
 }
 
 .dropdown .dropbtn {
@@ -50,11 +57,11 @@ body {
 
 .dropdown-content {
   display: none;
-  position: absolute;
+  position: fixed;
   background-color: #323d3e;
   min-width: 140px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  z-index: 9999;
   left:auto;
   right:0;
 }
