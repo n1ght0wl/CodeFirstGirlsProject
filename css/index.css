@@ -1,0 +1,34 @@
+body, html {
+  height: 100%;
+}
+
+.parallax {
+
+  background-image: url("../images/alone.jpg");
+
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img.big {
+    max-width: 50vw;
+    height:auto;
+    width:auto;
+    max-height:50vh;
+    margin: 20vh
+}
+h1, span {
+    display: inline;
+    vertical-align: top;
+    font-family: arial;
+    line-height: 28px;
+    font-size: 20px;
+    color: white
+}
+.intro {
+  background-color: lightblue;
+  padding: 10vh;
+}
