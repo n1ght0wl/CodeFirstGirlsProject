@@ -1,4 +1,4 @@
-
+/*
 var backgrounds = ['quote-atticus', 'quote-jasmine-warga', 'quote-stephen-fry']
 $( document ).ready(function(){
     $('h1').on('click', function () {
@@ -8,3 +8,23 @@ $( document ).ready(function(){
       $("span.photographer").html(randomBackground);
     })
   })
+
+  */
+
+/*Initialize Swiper */
+    var swiper = new Swiper('.swiper-container', {
+		      effect: 'coverflow',
+		      grabCursor: true,
+		      centeredSlides: true,
+		      slidesPerView: 'auto',
+		      coverflowEffect: {
+		      rotate: 50,
+		      stretch: 0,
+		      depth: 100,
+		      modifier: 1,
+		      slideShadows : true,
+      },
+      		  pagination: {
+        		el: '.swiper-pagination',
+      		  },
+    });
