@@ -1,6 +1,5 @@
 
 body {
-  font-family: times;
   margin: 0px;
   justify-content: center;
 }
@@ -95,13 +94,15 @@ text-align: center;
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 7vh;
+  height: 5vh;
   background-color: lightblue;
   color: white;
+  font-family: arial;
+  padding-bottom: 2vh;
 }
 
 p {
   text-align: right;
   padding-right: 1em;
-  font-size: 3vh;
+  font-size: 2vh;
 }
