@@ -3,13 +3,13 @@ body {
   font-family: times;
   margin: 0px;
   justify-content: center;
-
 }
 /* Navbar container */
 .navbar {
   overflow: hidden;
   background-color: lightblue;
   font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .logo {
@@ -83,18 +83,6 @@ text-align: center;
 
 }
 
-h1 {
-  font-size: 8vh;
-}
-
-
-img {
-    max-width: 50vw;
-    height:auto;
-    width:auto;
-    max-height:50vh;
-}
-
 
 
 .footer {
@@ -105,6 +93,7 @@ img {
   background-color: lightblue;
   color: white;
 }
+
 p {
   text-align: right;
   padding-right: 1em;
