@@ -1,6 +1,5 @@
 body {
 	background-color:white;
-
 }
 
 .swiper-container {
@@ -17,7 +16,7 @@ body {
     height: 167px;
 	background: #fff;
 }
-    .swiper-slide .imgBx{
+ .swiper-slide .imgBx{
 	width:100%;
 	height:300px;
 	overflow:hidden;			
