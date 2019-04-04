@@ -2,10 +2,12 @@
 body {
   margin: 0px;
   justify-content: center;
+  font-family: arial;
 }
 
 /* Navbar container */
 .navbar {
+  top: 0;
   overflow: hidden;
   background-color: lightblue;
   font-family: Arial, Helvetica, sans-serif;
@@ -88,7 +90,9 @@ text-align: center;
 
 }
 
-
+a {
+  color: white;
+}
 
 .footer {
   position: fixed;
