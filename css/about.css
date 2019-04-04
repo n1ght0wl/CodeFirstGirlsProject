@@ -1,0 +1,29 @@
+body {
+  font-family: arial;
+  justify-content: flex-start;
+}
+img.event {
+  margin-top: 10vh;
+  width: 50%;
+  height: auto;
+  left: 0;
+}
+h1 {
+  color: #323d3e;
+}
+.about {
+  padding-left: 40vh;
+  padding-right: 40vh;
+  padding-bottom: 10vh;
+  text-align: center;
+  font-size: 20px;
+}
+iframe {
+  padding-bottom: 20vh;
+}
+.about2 {
+  font-size: 25px;
+  padding-left: 30vh;
+  padding-right: 30vh;
+  padding-bottom: 10vh;
+}
