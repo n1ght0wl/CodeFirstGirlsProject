@@ -1,21 +1,23 @@
 
 body {
-  font-family: times;
   margin: 0px;
   justify-content: center;
 }
+
 /* Navbar container */
 .navbar {
   overflow: hidden;
   background-color: lightblue;
   font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  position: fixed;
+
 
 }
 
 .logo {
-  height: 43px;
+  height: 41px;
   width: auto;
-  
 }
 
 .navbar a {
@@ -25,12 +27,14 @@ body {
   text-align: center;
   padding: 0;
   text-decoration: none;
+
 }
 
 
 .dropdown {
   float: right;
   overflow: hidden;
+
 }
 
 .dropdown .dropbtn {
@@ -51,11 +55,11 @@ body {
 
 .dropdown-content {
   display: none;
-  position: absolute;
+  position: fixed;
   background-color: #323d3e;
   min-width: 140px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  z-index: 9999;
   left:auto;
   right:0;
 }
@@ -90,21 +94,15 @@ text-align: center;
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 7vh;
+  height: 5vh;
   background-color: lightblue;
- 
-}
-
-
-#email  {
-	text-align: right;
-	font-size: 3vh;
-	color: white;
-}
-
-#email a {
-  
-  padding-right: 1em;
-  font-size: 3vh;
   color: white;
+  font-family: arial;
+  padding-bottom: 2vh;
+}
+
+p {
+  text-align: right;
+  padding-right: 1em;
+  font-size: 2vh;
 }
