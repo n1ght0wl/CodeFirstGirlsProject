@@ -1,12 +1,4 @@
-body {
-	background-image: url("../images/positive_thinking.jpg");
-	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-	background-attachment: fixed;
-    background-position: center;
-    font-size: 14px;
-    margin: 0px;
-    padding: 0px;
-}
+
 .swiper-container {
     width: 100%;
     height: 300px;
