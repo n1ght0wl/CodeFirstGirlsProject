@@ -1,5 +1,6 @@
 body, html {
   height: 100%;
+  scroll-behavior: smooth;
 }
 
 .parallax {
@@ -13,12 +14,39 @@ body, html {
 
 }
 
+.arrow {
+    position:fixed;
+    max-width:100%;
+    max-height:100%;
+    top:80%;
+    left:49vw;
+    overflow: hidden;
+}
+
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+
 img.big {
-    max-width: 50vw;
-    height:auto;
-    width:auto;
-    max-height:70vh;
-    margin: 20vh
+    max-width: 30%;
+
+    max-height:auto;
+    margin: 20vh;
+    left: 50%;
 }
 h1, span {
     display: inline;
