@@ -1,6 +1,7 @@
 
 body {
-  margin: 0px;
+  margin: 0;
+  padding:0;
   justify-content: center;
   font-family: arial;
 }
@@ -86,6 +87,7 @@ body {
 h1, h2 {
 
 text-align: center;
+padding:30px;
 
 }
 
