@@ -5,18 +5,21 @@
 <meta charset="UTF-8">
 <title>About Us | Dedicated Listeners</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Dedicated listeners is a service run by students for students.  Students can drop by our service and talk to a trained listener about any issue they want to.">
+<meta name="description" content="Dedicated listeners is a service run by students for students.  Students can drop by our service and talk to a trained    				listener about any issue they want to.">
 <link rel="stylesheet" type="text/css" href="css/about.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
-
-
-
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137706981-1"></script>
+	<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-
-  </head>
+    gtag('config', 'UA-137706981-1');
+	</script>
+</head>
 
   <body>
     <div class="navbar">
@@ -43,15 +46,16 @@
 <h1>About Dedicated Listeners</h1>
 <div class="about">
 
-Dedicated Listeners began in 2015 and was set up by Dirma Allen, a Masters student in anthropology who set up RE: mind society.
+<p>Dedicated Listeners began in 2015 and was set up by Dirma Allen, a Masters student in anthropology who set up RE: mind society.
 She researched other universities such as Reading and Oxford who have a well established peer to peer support system in place.
 She noticed the non-existence of any type of service at Goldsmiths and wanted to set one up. Then Zoe Adeline- Webber and fellow co-ords
-took on her idea and spent 3 years building the service and gaining support from other students, training and funding.
+took on her idea and spent 3 years building the service and gaining support from other students, training and funding.</p>
 </div>
-<iframe src="https://player.vimeo.com/video/327442027" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/327442027" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+</iframe>
 
 <div class="about2">
-  We are open and available from Tuesday, Wednesday and Thursday in two hour slots of 12-2pm and 2-4pm. The service is currently based in the students union, on the ground floor. There will always be two listeners on shift at one time. There is no appointment system, so students drop by as and when.
+  <p>We are open and available from Tuesday, Wednesday and Thursday in two hour slots of 12-2pm and 2-4pm. The service is currently based in the students union, on the ground floor. There will always be two listeners on shift at one time. There is no appointment system, so students drop by as and when. </p>
 </div>
 
  <h2>Where we're located:</h2>
@@ -63,21 +67,33 @@ took on her idea and spent 3 years building the service and gaining support from
   </div>
 </center>
 <div class="footer">
-<a href="https://www.facebook.com/goldlisteners/">Facebook</a>
-<a href="https://www.instagram.com/dedicatedlisteners/">Instagram</a>
-	<p id="email">Contact us at <a href="mailto:dedicatedlisteners@gmail.com">dedicatedlisteners@gmail.com</a> </p>
+  <div class="footer">
+  <button id="myBtn"><b>Connect with us</b></button>
 
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h4>Connect with us</h4>
+      </div>
+      <div class="modal-body">
+        <p>  <a href="https://www.facebook.com/goldlisteners/"><img id="fb" src="images/facebook1.png"></a>
+          <a href="https://www.instagram.com/dedicatedlisteners/"><img id="ig" src="images/instagram.png"></a>
+          <a href="mailto:dedicatedlisteners@gmail.com"><img id="email" src="images/email.png"></a>
+  		</p>
+      </div>
+    </div>
+  </div>
+  </div>
 </div>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="js/drops.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137706981-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
 
-    gtag('config', 'UA-137706981-1');
-  </script>
 
 </body>
 </html>
