@@ -1,6 +1,5 @@
 body {
   font-family: arial;
-  justify-content: flex-start;
 }
 img.event {
   margin-top: 10vh;
@@ -8,22 +7,47 @@ img.event {
   height: auto;
   left: 0;
 }
-h1 {
-  color: #323d3e;
+.header {
+  color: white;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+  background-image: url("../images/alone.jpg");
+  height: 20vh;
+  padding: 20vh;
+  text-align: center;
+  width: 100%
 }
 .about {
-  padding-left: 40vh;
-  padding-right: 40vh;
-  padding-bottom: 10vh;
-  text-align: center;
+  position: absolute;
+  bottom: -10%;
+  right: 50vh;
+  background-color: #323d3e;
+  color: white;
+  padding: 20px;
+  max-width: 80vh;
+  opacity: 0.9;
   font-size: 20px;
+}
+
+#event {
+  max-width: 140vh;
+
+}
+.both {
+  position: relative;
+  z-index: -999;
+  left: 30vh;
+
+  margin: 10vh;
 }
 iframe {
   padding-bottom: 20vh;
+  padding-top: 10vh;
 }
 .about2 {
   font-size: 25px;
   padding-left: 30vh;
   padding-right: 30vh;
   padding-bottom: 10vh;
+
 }
