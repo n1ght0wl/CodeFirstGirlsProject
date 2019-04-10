@@ -2,13 +2,17 @@
 <head>
 <style>
 div.involved {
-    margin: 20px;
+    margin: 40px;
     border: 1px solid #ccc;
     float: center;
     width: 180px;
   }
   p.padding {
   padding-bottom:2cm;
+}
+div {
+  padding-right: 30px;
+  padding-left: 30px;
 }
 .button {
   background-color: #008CBA; /* Blue */
