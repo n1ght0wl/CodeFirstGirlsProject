@@ -123,8 +123,8 @@ a {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+  font-size: 2.5vh;
+  margin: 1vh;
   cursor: pointer;
   float: right;
 }
@@ -184,7 +184,7 @@ a {
 .modal-footer {
   padding: 2px 16px;
   background-color: #323d3e;
-  color: white;
+
 }
 
 /* Add Animation */
