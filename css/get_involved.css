@@ -1,12 +1,32 @@
 <html>
 <head>
 <style>
-div.involved{
-    margin: 5px;
+div.involved {
+    margin: 20px;
     border: 1px solid #ccc;
     float: center;
     width: 180px;
   }
+  p.padding {
+  padding-bottom:2cm;
+}
+.button {
+  background-color: #008CBA; /* Blue */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button3 {border-radius: 8px;}
+p {
+  font-family: "arial", arial, arial;
+}
+
 
 </style>
 </head>
