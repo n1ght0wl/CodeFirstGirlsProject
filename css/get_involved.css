@@ -28,7 +28,10 @@ div {
 }
 .button3 {border-radius: 8px;}
 p {
-  font-family: "arial", arial, arial;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5px;
+  margin-bottom: 10px;
+
 }
 
 
