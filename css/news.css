@@ -16,7 +16,8 @@ div.desc {
   text-align: center;
 }
 
-h1 h2 {
+h1, h2 {
 	font-family: Arial, Helvetica, sans-serif;
+  padding: 5vh;
+  padding-top: 10vh;
 }
-

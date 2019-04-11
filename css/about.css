@@ -11,7 +11,7 @@ body {
 h1 {
 padding-top: 10vh;
 color: white;
-
+text-align: center;
 }
 
 
@@ -45,6 +45,19 @@ color: white;
   text-align: center;
   margin: 0 auto;
   display: block;
+}
+.about3 {
+  padding: 3vh;
+  width: 60%;
+  height: auto;
+  text-align: justify;
+  font-size: 2.7vh;
+  background: rgba(50, 62, 62, 0.5);
+  border: 3px solid lightblue;
+  color: white;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 20vh;
 }
 #map {
   padding: 3vh;
