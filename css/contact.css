@@ -2,6 +2,11 @@ body {
     background-color:white;
 }
 
+#logo {
+  padding-top: 10vh;
+  max-width: auto;
+}
+
 input[type=text], select, textarea {
     width: 25%;
     padding: 12px;
@@ -30,11 +35,11 @@ input[type=submit]:hover {
 }
 
 .form {
-    margin:auto;
+    margin-bottom: 20vh;
     border-radius: 5px;
     background-color: lightblue;
-    padding: 20px;
+    padding: 20%;
     font-family:'Nanum Pen Script', cursive;
     font-size: 28px;
-	color: white;
+	  color: white;
 }

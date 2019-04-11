@@ -1,6 +1,4 @@
-<html>
-<head>
-<style>
+
 div.involved {
     margin: 40px;
     border: 1px solid #ccc;
@@ -10,10 +8,12 @@ div.involved {
   p.padding {
   padding-bottom:2cm;
 }
+/*
 div {
   padding-right: 30px;
   padding-left: 30px;
 }
+*/
 .button {
   background-color: #008CBA; /* Blue */
   border: none;
@@ -28,9 +28,12 @@ div {
 }
 .button3 {border-radius: 8px;}
 p {
-  font-family: "arial", arial, arial;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5px;
+  margin-bottom: 10px;
+
 }
 
 
-</style>
-</head>
+
+
