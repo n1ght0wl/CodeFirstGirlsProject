@@ -186,6 +186,11 @@ a {
 
 }
 
+/* active look on menu */
+.current {
+  background-color: lightblue;
+}
+
 /* Add Animation */
 @-webkit-keyframes slideIn {
   from {bottom: -300px; opacity: 0}
