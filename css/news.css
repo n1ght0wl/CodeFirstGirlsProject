@@ -1,9 +1,22 @@
+h1 {
+	font-family: inherit;
+	font-weight: bold;
+    justify-content: center;
+	padding-top: 15px;
+}
+
+div.text {
+	padding-bottom: 30px;
+
+}
 
 .carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-    width: 50%;
+.carousel-inner > .item > a > img {
+    width: 40%;
     margin: auto;
-  }
+}
+
+
 .container {
-  padding: 20vh;
+  padding: 5vh;
 }

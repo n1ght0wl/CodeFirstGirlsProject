@@ -204,3 +204,12 @@ a {
   from {opacity: 0}
   to {opacity: 1}
 }
+
+h1 {
+	padding:30px;
+}
+
+#transparent {
+  height: 41px;
+  width: auto;
+}
