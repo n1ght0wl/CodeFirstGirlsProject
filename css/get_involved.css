@@ -1,12 +1,42 @@
+body {
+  background-image: url("../images/alone.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-div.involved {
-    margin: 40px;
-    border: 1px solid #ccc;
-    float: center;
-    width: 180px;
-  }
-  p.padding {
-  padding-bottom:2cm;
+
+h1 {
+color: white;
+padding-top: 15vh;
+padding-bottom: 5vh;
+}
+
+#get {
+  padding: 3vh;
+  width: 60%;
+  height: auto;
+  text-align: justify;
+  font-size: 2.7vh;
+  background: rgba(50, 62, 62, 0.5);
+  border: 3px solid lightblue;
+  color: white;
+  align-items: center;
+  margin: 3vh;
+}
+#get1 {
+  padding: 3vh;
+  width: 60%;
+  height: auto;
+  text-align: justify;
+  font-size: 2.7vh;
+  background: rgba(50, 62, 62, 0.5);
+  border: 3px solid lightblue;
+  color: white;
+  align-items: center;
+  margin: 3vh;
+  margin-bottom: 20vh;
 }
 /*
 div {
@@ -33,7 +63,3 @@ p {
   margin-bottom: 10px;
 
 }
-
-
-
-
