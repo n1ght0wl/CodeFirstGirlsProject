@@ -1,15 +1,18 @@
+<html>
+<head>
+<style>
+
 div.news{
   margin: 10px;
   border: 1px solid #ccc;
   float: center;
   width: 180px;
-  padding: 10px;
+  padding-bottom: 10px;
 }
 
 div.gallery img {
   width: 70%;
   height: auto;
-  float:none;
 }
 
 div.desc {
@@ -18,14 +21,7 @@ div.desc {
 
 }
 
-<<<<<<< HEAD
 
 </html>
 </head>
 </style>
-=======
-h1 h2 {
-	font-family: Arial, Helvetica, sans-serif;
-}
-
->>>>>>> 65319d9963aad42ac2d44acccafb818de9129e34
