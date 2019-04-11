@@ -1,18 +1,9 @@
 
-div.news{
-  margin: 10px;
-  border: 1px solid #ccc;
-  float: center;
-  width: 180px;
-  padding: 10px;
-}
-
-div.gallery img {
-  width: 20%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 50%;
+    margin: auto;
+  }
+.container {
+  padding: 20vh;
 }

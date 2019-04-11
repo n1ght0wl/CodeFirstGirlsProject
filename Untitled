@@ -1,0 +1,74 @@
+<h1>Here are some of our past events</h1>
+
+
+  <div class="responsive">
+    <div class="gallery">
+      <h2 style="font-family:arial;">Puppies and Pizza</h2>
+      <a target="_blank" href="images/puppies.jpg">
+        <img src="images/puppies.jpg" alt="Puppies and Pizza" style="float">
+      </a>
+    </div>
+  </div>
+
+
+  <div class="responsive">
+    <div class="gallery">
+      <h2 style="font-family:arial;">Bake Sale</h2>
+      <a target="_blank" href="images/bake sale.jpg">
+        <img src="images/bake sale.jpg" alt="Bake Sale" style="float">
+      </a>
+    </div>
+  </div>
+
+
+  <div class="responsive">
+    <div class="gallery">
+      <h2 style="font-family:arial;">Our booth at the Student Life Fair</h2>
+      <a target="_blank" href="images/event.jpg">
+        <img src="images/event.jpg" alt="Student Life Fair" style="float">
+      </a>
+    </div>
+  </div>
+
+  <div class="text">
+    <h1 style="font-family:arial;">Be sure to follow us on social media and subscribe to our emails to keep up with all future events!</h1>
+  </div>
+
+  <div class="clearfix"></div>
+
+
+  </body>
+  </html>
+
+
+
+<div class="footer">
+<button id="myBtn"><b>Connect with us</b></button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+<!-- Modal content -->
+<div class="modal-content">
+  <div class="modal-header">
+    <span class="close">&times;</span>
+    <h4>Connect with us</h4>
+  </div>
+  <div class="modal-body">
+    <p>  <a href="https://www.facebook.com/goldlisteners/"><img id="fb" src="images/facebook1.png"></a>
+      <a href="https://www.instagram.com/dedicatedlisteners/"><img id="ig" src="images/instagram.png"></a>
+      <a href="mailto:dedicatedlisteners@gmail.com"><img id="email" src="images/email.png"></a>
+</p>
+  </div>
+</div>
+</div>
+</div>
+
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="js/drops.js"></script>
+
+</body>
+</html>
