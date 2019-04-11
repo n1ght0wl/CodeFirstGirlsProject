@@ -1,12 +1,13 @@
 div.news{
-  margin: 5px;
+  margin: 10px;
   border: 1px solid #ccc;
   float: center;
   width: 180px;
+  padding: 10px;
 }
 
 div.gallery img {
-  width: 50%;
+  width: 70%;
   height: auto;
   float:none;
 }
@@ -14,6 +15,7 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
+
 }
 
 h1, h2 {
