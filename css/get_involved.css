@@ -8,10 +8,12 @@ div.involved {
   p.padding {
   padding-bottom:2cm;
 }
+/*
 div {
   padding-right: 30px;
   padding-left: 30px;
 }
+*/
 .button {
   background-color: #008CBA; /* Blue */
   border: none;
