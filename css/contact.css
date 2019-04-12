@@ -10,3 +10,11 @@ body {
 h1 {
 	color: white;
 }
+
+img.big {
+    max-width: 20%;
+
+    max-height:auto;
+    margin: 10vh;
+    left: 50%;
+}
